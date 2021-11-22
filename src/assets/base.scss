@@ -1,0 +1,53 @@
+@import "./_core.scss";
+@import "./_colors.scss";
+@import "./_classes.scss";
+
+$font: Avenir, Helvetica, Arial, sans-serif;
+$font-mono: 'JetBrains Mono', Consolas, monospace;
+
+*, *::after, *::before {
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	margin: 0;
+	font-family: $font-mono;
+	font-size: $font-size;
+	text-rendering: optimizeSpeed;
+}
+
+button {
+	border: none;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+a, button, input, select, textarea {
+	color: inherit;
+	font: inherit;
+	outline: none;
+}
+
+a:focus, button:focus, input:focus, select:focus, textarea:focus {
+	box-shadow: inset 0 0 2px 1px var(--accent);
+}
+
+blockquote, dd, dl, figcaption, figure, h1, h2, h3, h4, li, ol, p, pre, ul {
+	margin: 0;
+}
+
+button, ol, ul {
+	padding: 0;
+}
