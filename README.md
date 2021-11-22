@@ -1,4 +1,4 @@
-<img src="./images/logo.sample.png" alt="Logo of the project" align="right">
+<img src="./public/logo.sample.png" alt="Logo of the project" align="right">
 
 # Project name &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/Craiqser/projectname/blob/master/LICENSE)
 
