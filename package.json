@@ -13,8 +13,8 @@
 	},
 	"description": "Project description",
 	"devDependencies": {
-		"@craiqser/eslint-config": "^1.0.11",
-		"@vitejs/plugin-vue": "^1.9.4",
+		"@craiqser/eslint-config": "^1.0.12",
+		"@vitejs/plugin-vue": "^1.10.0",
 		"@vue/compiler-sfc": "^3.2.22",
 		"eslint": "^8.3.0",
 		"eslint-plugin-import": "^2.25.3",
@@ -23,7 +23,11 @@
 		"vite": "^2.6.14"
 	},
 	"homepage": "https://github.com/Craiqser/projectname#readme",
-	"keywords": ["vite 2", "vue 3", "template"],
+	"keywords": [
+		"vite 2",
+		"vue 3",
+		"template"
+	],
 	"license": "MIT",
 	"name": "cerp",
 	"private": "true",
