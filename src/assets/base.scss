@@ -5,27 +5,34 @@
 $font: Avenir, Helvetica, Arial, sans-serif;
 $font-mono: 'JetBrains Mono', Consolas, monospace;
 
-*, *::after, *::before {
+*, *::before, *::after {
 	box-sizing: border-box;
 }
 
-html {
+* {
+	margin: 0;
+}
+
+body, html {
 	height: 100%;
 }
 
 body {
-	height: 100%;
-	margin: 0;
 	font-family: $font-mono;
-	font-size: $font-size;
+	font-size: 12px;
 	text-rendering: optimizeSpeed;
+	line-height: calc(1em + .5rem);
+}
+
+button, ol, ul {
+	padding: 0;
 }
 
 button {
 	border: none;
 }
 
-img {
+canvas, img, picture, svg, video {
 	display: block;
 	max-width: 100%;
 }
@@ -41,13 +48,9 @@ a, button, input, select, textarea {
 }
 
 a:focus, button:focus, input:focus, select:focus, textarea:focus {
-	box-shadow: inset 0 0 2px 1px var(--accent);
+	box-shadow: inset 0 0 2px 1px var(--color);
 }
 
-blockquote, dd, dl, figcaption, figure, h1, h2, h3, h4, li, ol, p, pre, ul {
-	margin: 0;
-}
-
-button, ol, ul {
-	padding: 0;
+p, h1, h2, h3, h4, h5, h6 {
+	overflow-wrap: break-word;
 }
