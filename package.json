@@ -9,21 +9,25 @@
 		"url": "https://github.com/Craiqser/projectname/issues"
 	},
 	"dependencies": {
-		"vue": "^3.2.22"
+		"vue": "^3.2.23"
 	},
 	"description": "Project description",
 	"devDependencies": {
-		"@craiqser/eslint-config": "^1.0.11",
-		"@vitejs/plugin-vue": "^1.9.4",
-		"@vue/compiler-sfc": "^3.2.22",
+		"@craiqser/eslint-config": "^1.0.12",
+		"@vitejs/plugin-vue": "^1.10.1",
+		"@vue/compiler-sfc": "^3.2.23",
 		"eslint": "^8.3.0",
 		"eslint-plugin-import": "^2.25.3",
 		"eslint-plugin-vue": "^8.1.1",
-		"sass": "^1.43.4",
+		"sass": "^1.43.5",
 		"vite": "^2.6.14"
 	},
 	"homepage": "https://github.com/Craiqser/projectname#readme",
-	"keywords": ["vite 2", "vue 3", "template"],
+	"keywords": [
+		"vite 2",
+		"vue 3",
+		"template"
+	],
 	"license": "MIT",
 	"name": "cerp",
 	"private": "true",
