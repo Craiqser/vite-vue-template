@@ -19,17 +19,17 @@
 		"eslint": "^8.3.0",
 		"eslint-plugin-import": "^2.25.3",
 		"eslint-plugin-vue": "^8.1.1",
-		"sass": "^1.43.5",
+		"sass": "^1.44.0",
 		"vite": "^2.6.14"
 	},
 	"homepage": "https://github.com/Craiqser/projectname#readme",
 	"keywords": [
+		"template",
 		"vite 2",
-		"vue 3",
-		"template"
+		"vue 3"
 	],
 	"license": "MIT",
-	"name": "cerp",
+	"name": "projectname",
 	"private": "true",
 	"repository": {
 		"type": "git",
