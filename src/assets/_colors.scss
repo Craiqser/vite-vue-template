@@ -1,4 +1,5 @@
 :root {
+	--canvas: #FFFFFF;
 	--back: #CBD5DF;
 	--form: #E2E8F0;
 	--ctrl: #F7FAFB;
@@ -9,6 +10,7 @@
 }
 
 :root.dark {
+	--canvas: #22272e;
 	--back: #1A202C;
 	--form: #2D3848;
 	--ctrl: #3A4556;

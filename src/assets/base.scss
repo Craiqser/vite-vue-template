@@ -5,41 +5,30 @@
 $font: Avenir, Helvetica, Arial, sans-serif;
 $font-mono: 'JetBrains Mono', Consolas, monospace;
 
-*, *::after, *::before {
-	box-sizing: border-box;
-}
+*, *::after, *::before { box-sizing: border-box; }
+* { margin: 0; }
 
-* {
-	margin: 0;
-}
-
-body, html {
-	height: 100%;
-}
+body, html { height: 100%; }
 
 body {
 	font-family: $font-mono;
 	font-size: $font-size;
 	text-rendering: optimizeSpeed;
 	line-height: calc(1em + .5rem);
+	color: var(--primary);
+	background-color: var(--back);
 }
 
-button, ol, ul {
-	padding: 0;
-}
+button, ol, ul { padding: 0; }
 
-button {
-	border: none;
-}
+button { border: none; }
 
 canvas, img, picture, svg, video {
 	display: block;
 	max-width: 100%;
 }
 
-ol, ul {
-	list-style: none;
-}
+ol, ul { list-style: none; }
 
 a, button, input, select, textarea {
 	color: inherit;
@@ -51,6 +40,4 @@ a:focus, button:focus, input:focus, select:focus, textarea:focus {
 	box-shadow: inset 0 0 2px 1px var(--accent);
 }
 
-p, h1, h2, h3, h4, h5, h6 {
-	overflow-wrap: break-word;
-}
+p, h1, h2, h3, h4, h5, h6 { overflow-wrap: break-word; }
