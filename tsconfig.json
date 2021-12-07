@@ -33,7 +33,6 @@
 		"target": "ESNext",
 		"types": [],
 		"useDefineForClassFields": true
-
 	},
 	"exclude": ["dist", "node_modules"]
 }
