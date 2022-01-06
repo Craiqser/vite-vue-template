@@ -13,14 +13,14 @@
 	},
 	"description": "Project description",
 	"devDependencies": {
-		"@craiqser/eslint-config": "^1.1.1",
+		"@craiqser/eslint-config": "^1.1.2",
 		"@vitejs/plugin-vue": "^2.0.1",
 		"@vue/compiler-sfc": "^3.2.26",
-		"eslint": "^8.5.0",
-		"eslint-plugin-import": "^2.25.3",
+		"eslint": "^8.6.0",
+		"eslint-plugin-import": "^2.25.4",
 		"eslint-plugin-vue": "^8.2.0",
-		"sass": "^1.45.1",
-		"vite": "^2.7.6"
+		"sass": "^1.46.0",
+		"vite": "^2.7.10"
 	},
 	"homepage": "https://github.com/Craiqser/projectname#readme",
 	"keywords": [
