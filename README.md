@@ -1,6 +1,6 @@
 <img src="./public/logo.sample.png" alt="Logo of the project" align="right">
 
-# Project name &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/Craiqser/projectname/blob/main/LICENSE)
+# Project name &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/Craiqser/vite-vue-template/blob/main/LICENSE)
 
 Project description
 
@@ -8,14 +8,20 @@ Project description
 
 A quick introduction of the minimal setup you need to get a project up & running.
 
-```bash
-git clone https://github.com/Craiqser/projectname.git
-cd projectname/
-yarn
+```sh
+git clone https://github.com/Craiqser/vite-vue-template.git
+cd vite-vue-template/
+pnpm i
 ```
 
-## Developing
+## Compile and Hot-Reload for Development
 
-```bash
-yarn dev
+```sh
+pnpm run dev
+```
+
+## Compile and Minify for Production
+
+```sh
+pnpm run build
 ```

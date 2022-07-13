@@ -1,13 +1,13 @@
+import { URL, fileURLToPath } from 'url';
 import { defineConfig } from 'vite';
-import { resolve } from 'path';
 import vue from '@vitejs/plugin-vue';
 
 export default defineConfig({
 	plugins: [vue()],
 	resolve: {
 		alias: {
-			'~/': `${resolve('./', 'src')}/`,
-			'@/': `${resolve('./', 'src')}/components/`
+			'~': fileURLToPath(new URL('./src', import.meta.url)),
+			'@': fileURLToPath(new URL('./src/components', import.meta.url))
 		}
 	},
 	server: {

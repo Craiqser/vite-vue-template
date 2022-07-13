@@ -6,23 +6,25 @@
 	},
 	"bugs": {
 		"email": "craiqser@gmail.com",
-		"url": "https://github.com/Craiqser/projectname/issues"
+		"url": "https://github.com/Craiqser/vite-vue-template/issues"
 	},
 	"dependencies": {
-		"vue": "^3.2.35"
+		"vue": "^3.2.37"
 	},
 	"description": "Project description",
 	"devDependencies": {
-		"@craiqser/eslint-config": "^1.1.6",
-		"@vitejs/plugin-vue": "^2.3.3",
-		"eslint": "^8.15.0",
-		"sass": "^1.52.0",
-		"vite": "^2.9.9"
+		"@craiqser/eslint-config": "^1.1.7",
+		"@vitejs/plugin-vue": "^3.0.0-beta.1",
+		"eslint": "^8.19.0",
+		"sass": "^1.53.0",
+		"vite": "^3.0.0"
 	},
-	"homepage": "https://github.com/Craiqser/projectname#readme",
+	"homepage": "https://github.com/Craiqser/vite-vue-template#readme",
 	"keywords": [
+		"scss",
+		"starter-project",
 		"template",
-		"vite 2",
+		"vite 3",
 		"vue 3"
 	],
 	"license": "MIT",
@@ -30,12 +32,12 @@
 	"private": "true",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Craiqser/projectname.git"
+		"url": "https://github.com/Craiqser/vite-vue-template.git"
 	},
 	"scripts": {
 		"build": "vite build",
 		"dev": "vite --open",
 		"serve": "vite preview"
 	},
-	"version": "0.1.0"
+	"version": "0.2.0"
 }

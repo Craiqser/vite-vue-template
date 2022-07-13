@@ -36,7 +36,7 @@
 		"strict": true,
 		"strictNullChecks": true,
 		"target": "ESNext",
-		"types": ["vue"],
+		"types": [],
 		"useDefineForClassFields": true
 	},
 	"exclude": ["dist", "node_modules"]
